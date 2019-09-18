@@ -25,6 +25,9 @@ string automata (vector<vector<int>> &Tabla, string cad, map<char, string> &mapT
 int main ()
 {
     freopen("tablas.in", "r", stdin);
+    /*
+    Archivo de entrada, contiene las tablas de transici ́on. El primer n ́umero in-dica la cantidad de tablas de ellas. Para cada tabla se indica la cantidad de tiposde s ́ımbolos, la cantidad de estados y la cantidad de casos de prueba
+    */
         
     int cantTablas, cantTokens, cantEstados, celdas, cantCadenas, estado;
     string token, simbolos, cad;
